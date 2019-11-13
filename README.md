@@ -1,2 +1,3 @@
 # ESCOpenCVBaseDemo
 UIImage与OpenCV图片格式转换的demo
+由于github存在单个文件不能超过100m的限制，OPenCV的framework里面的库文件已分割为对应平台的库文件，项目执行文件为arm64的架构，若要支持其他架构，把其他架构文件合并进opencv2中即可。
