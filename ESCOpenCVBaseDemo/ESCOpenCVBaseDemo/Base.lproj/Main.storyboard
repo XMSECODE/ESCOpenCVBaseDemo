@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LdA-Uw-n7C">
+                                <rect key="frame" x="0.0" y="44" width="414" height="272.5"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ygg-VX-xLC">
+                                <rect key="frame" x="0.0" y="316.5" width="414" height="273"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iVh-7p-LRL">
+                                <rect key="frame" x="0.0" y="589.5" width="414" height="272.5"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="iVh-7p-LRL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3oP-eg-mUb"/>
+                            <constraint firstItem="LdA-Uw-n7C" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8tM-Ee-LL0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iVh-7p-LRL" secondAttribute="bottom" id="Fqz-WE-1Gj"/>
+                            <constraint firstItem="Ygg-VX-xLC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HaG-Sx-9Ta"/>
+                            <constraint firstItem="Ygg-VX-xLC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="OH8-sP-PVL"/>
+                            <constraint firstItem="LdA-Uw-n7C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TEg-Cy-gnF"/>
+                            <constraint firstItem="Ygg-VX-xLC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XhS-hR-Zig"/>
+                            <constraint firstItem="Ygg-VX-xLC" firstAttribute="top" secondItem="LdA-Uw-n7C" secondAttribute="bottom" id="ZJn-km-9do"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LdA-Uw-n7C" secondAttribute="trailing" id="boh-4I-0Cu"/>
+                            <constraint firstItem="Ygg-VX-xLC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cc6-Vy-5BS"/>
+                            <constraint firstItem="Ygg-VX-xLC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ctd-A8-YHo"/>
+                            <constraint firstItem="Ygg-VX-xLC" firstAttribute="height" secondItem="LdA-Uw-n7C" secondAttribute="height" id="fni-jW-4eG"/>
+                            <constraint firstItem="iVh-7p-LRL" firstAttribute="height" secondItem="LdA-Uw-n7C" secondAttribute="height" id="keg-pi-8YH"/>
+                            <constraint firstItem="Ygg-VX-xLC" firstAttribute="top" secondItem="LdA-Uw-n7C" secondAttribute="bottom" id="mh4-tY-fJS"/>
+                            <constraint firstItem="iVh-7p-LRL" firstAttribute="top" secondItem="Ygg-VX-xLC" secondAttribute="bottom" id="ndV-Cc-zCn"/>
+                            <constraint firstItem="Ygg-VX-xLC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="t17-N2-h3K"/>
+                            <constraint firstItem="Ygg-VX-xLC" firstAttribute="top" secondItem="LdA-Uw-n7C" secondAttribute="bottom" id="tEB-Wr-zUe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iVh-7p-LRL" secondAttribute="trailing" id="w6D-of-xAw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstImageView" destination="LdA-Uw-n7C" id="l22-4q-8ge"/>
+                        <outlet property="secondImageView" destination="Ygg-VX-xLC" id="sx3-Z6-xsl"/>
+                        <outlet property="thirdImageView" destination="iVh-7p-LRL" id="aGc-Ts-OFJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="118.52678571428571"/>
+        </scene>
+    </scenes>
+</document>
